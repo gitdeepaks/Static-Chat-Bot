@@ -1,0 +1,23 @@
+{
+  "name": "invoke-llm",
+  "module": "server.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "bun run server.js --watch"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@samocodes/bun-cache": "^1.0.9",
+    "@tavily/core": "^0.5.12",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.33.0",
+    "node-cache": "^5.1.2",
+    "zod": "^4.1.11"
+  }
+}
